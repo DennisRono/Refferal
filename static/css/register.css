@@ -1,0 +1,138 @@
+body {
+  background: #e1e8ea;
+}
+
+label {
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+
+.container .register-form {
+  width: 400px;
+  margin: 1rem auto;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container .register-form .encapsulation h1 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  color: #0f394c;
+}
+
+.container .register-form .encapsulation .create-acc-text {
+  margin: 0px auto;
+}
+
+.container .register-form .encapsulation .create-acc-text p {
+  text-align: center;
+}
+
+.container .register-form .encapsulation .create-acc-text p span {
+  display: inline-block;
+  height: 1px;
+  background-color: #a1a1a1;
+  margin: 0px 10px;
+  width: 105px;
+}
+
+.container .register-form .encapsulation form .form-group {
+  margin-bottom: 1rem;
+}
+
+.container .register-form .encapsulation form .form-group .form-control {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 2px;
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+}
+
+.container .register-form .encapsulation form .form-group .btn2 {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px 8px 30px;
+  border-radius: 4px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #4457DC !important;
+  background: transparent;
+  border: 1px solid #4457DC;
+  height: 2.5rem;
+  text-decoration: none;
+  width: 100%;
+  font-family: "Nunito", sans-serif;
+}
+
+.container .register-form .encapsulation form .form-group .btn2 .ik-user {
+  margin-right: 10px;
+}
+
+.container .register-form .encapsulation form .form-group .btn2:hover {
+  text-decoration: none;
+  border: 1px solid #4457DC;
+  color: #deeafd !important;
+  background: #4457DC;
+  -webkit-box-shadow: 0 8px 28px rgba(68, 87, 220, 0.2);
+          box-shadow: 0 8px 28px rgba(68, 87, 220, 0.2);
+}
+
+.container .register-form .encapsulation .row .col .line {
+  display: inline-block;
+  height: 1px;
+  width: 100%;
+  background: #d2d9de;
+}
+
+.container .register-form .encapsulation .btn1 {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px 8px 30px;
+  border-radius: 4px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #deeafd;
+  background: #4457DC;
+  -webkit-box-shadow: 0 8px 28px rgba(68, 87, 220, 0.2);
+          box-shadow: 0 8px 28px rgba(68, 87, 220, 0.2);
+  border: none;
+  height: 2.5rem;
+  text-decoration: none;
+  width: 100%;
+}
+
+.container .register-form .encapsulation .footer {
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  .container .register-form {
+    width: 350px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container .register-form {
+    width: 320px;
+  }
+}
+
+@media (max-width: 350px) {
+  .container .register-form {
+    width: 280px;
+  }
+}
+/*# sourceMappingURL=register.css.map */

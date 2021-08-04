@@ -1,0 +1,307 @@
+@media (max-width: 600px) {
+  .mobile {
+    width: 94% !important;
+    margin-top: 0px !important;
+  }
+  .breadcrumb {
+    padding-top: 60px;
+    margin-bottom: 30px;
+  }
+  .breadcrumb p {
+    margin-left: 10px !important;
+  }
+  .read-main {
+    width: 100% !important;
+  }
+  .read-main .article-img {
+    overflow: hidden;
+    width: 100%;
+    margin-left: -5px;
+    max-height: 400px;
+  }
+  .read-main .article-img img {
+    width: 100%;
+    height: auto;
+  }
+  .read-sidebar {
+    width: 100% !important;
+  }
+  .read-sidebar .sidebar-one {
+    width: 100%;
+  }
+  .read-sidebar .sidebar-advert-tr .sidebar-ad-tr {
+    display: block !important;
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .read-sidebar .sidebar-advert-tr .sidebar-ad-tr img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.read .articles-read .error_id {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 300px;
+  width: 700px;
+  background-color: white;
+  text-align: center;
+}
+
+.read .articles-read .error_id p {
+  color: red;
+  font-size: 25px;
+}
+
+.read .articles-read .error_id p .fa-ban {
+  margin-right: 20px;
+}
+
+.read .articles-read .error_id img {
+  margin: 0 auto;
+}
+
+.read .articles-read .breadcrumb {
+  height: 34px;
+  margin-top: 20px;
+}
+
+.read .articles-read .breadcrumb .container p {
+  margin-left: 0px;
+  font-size: 18px;
+  color: #818181;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.read .articles-read .breadcrumb .container p .separator {
+  white-space: nowrap;
+  color: #fff;
+  text-shadow: 0 1px 0 #000;
+}
+
+.read .articles-read .read-main-content .container .read-flex {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.read .articles-read .read-main-content .container .read-flex .read-main {
+  width: 70%;
+  min-width: 300px;
+}
+
+.read .articles-read .read-main-content .container .read-flex .read-main .article-img {
+  overflow: hidden;
+  width: 100%;
+  max-height: 400px !important;
+}
+
+.read .articles-read .read-main-content .container .read-flex .read-main .article-img img {
+  width: 100%;
+  height: auto;
+}
+
+.read .articles-read .read-main-content .container .read-flex .read-main .article-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.read .articles-read .read-main-content .container .read-flex .read-main .article-details .author-det {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.read .articles-read .read-main-content .container .read-flex .read-main .article-details .author-det .author-avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 10px;
+  margin-top: 0px;
+}
+
+.read .articles-read .read-main-content .container .read-flex .read-main .article-details .author-det .author-avatar img {
+  width: 100%;
+  height: auto;
+}
+
+.read .articles-read .read-main-content .container .read-flex .read-main .article-details .author-det span {
+  margin-top: 7px;
+}
+
+.read .articles-read .read-main-content .container .read-flex .read-main .article-details .article-date {
+  margin-top: 7px;
+  padding-right: 10px !important;
+}
+
+.read .articles-read .read-main-content .container .read-flex .read-main .read-content {
+  padding: 5px;
+}
+
+.read .articles-read .read-main-content .container .read-flex .read-main .read-content p {
+  color: #000;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+
+.read .articles-read .read-main-content .container .read-flex .read-sidebar {
+  width: 25%;
+  background-color: white;
+  height: auto;
+}
+
+.read .articles-read .read-main-content .container .read-flex .read-sidebar .sidebar-one {
+  padding: 5px;
+}
+
+.read .articles-read .read-main-content .container .read-flex .read-sidebar .sidebar-one h2 {
+  padding: 5px;
+  border: 1px solid black;
+  border-left: 5px solid black;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.read .articles-read .read-main-content .container .read-flex .read-sidebar .sidebar-one a {
+  color: #fff;
+}
+
+.read .articles-read .read-main-content .container .read-flex .read-sidebar .sidebar-one a .article-bg-image {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.read .articles-read .read-main-content .container .read-flex .read-sidebar .sidebar-one a .article-bg-image img {
+  width: 100%;
+  height: auto;
+}
+
+.read .articles-read .read-main-content .container .read-flex .read-sidebar .sidebar-one a .article-bg-image .popular-article {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 150px;
+  bottom: 0;
+  left: 0;
+}
+
+.read .articles-read .read-main-content .container .read-flex .read-sidebar .sidebar-one a .article-bg-image .popular-article .popular-texts {
+  position: absolute;
+  bottom: 0;
+}
+
+.read .articles-read .read-main-content .container .read-flex .read-sidebar .sidebar-one a .article-bg-image .popular-article .popular-texts h5 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.read .articles-read .read-main-content .container .read-flex .read-sidebar .sidebar-one a .article-bg-image .popular-article .popular-texts p {
+  font-size: 12px;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.read .articles-read .read-main-content .container .read-flex .sidebar-two {
+  padding: 5px;
+}
+
+.read .articles-read .read-main-content .container .read-flex .sidebar-two h2 {
+  padding: 5px;
+  border: 1px solid black;
+  border-left: 5px solid black;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.read .articles-read .read-main-content .container .read-flex .sidebar-two a {
+  color: #fff;
+}
+
+.read .articles-read .read-main-content .container .read-flex .sidebar-two a .article-bg-image {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.read .articles-read .read-main-content .container .read-flex .sidebar-two a .article-bg-image img {
+  width: 100%;
+  height: auto;
+}
+
+.read .articles-read .read-main-content .container .read-flex .sidebar-two a .article-bg-image .popular-article {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 150px;
+  bottom: 0;
+  left: 0;
+}
+
+.read .articles-read .read-main-content .container .read-flex .sidebar-two a .article-bg-image .popular-article .popular-texts {
+  position: absolute;
+  bottom: 0;
+}
+
+.read .articles-read .read-main-content .container .read-flex .sidebar-two a .article-bg-image .popular-article .popular-texts h5 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.read .articles-read .read-main-content .container .read-flex .sidebar-two a .article-bg-image .popular-article .popular-texts p {
+  font-size: 12px;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.read .articles-read .read-main-content .container .read-flex .sidebar-advert-tr .sidebar-ad-tr {
+  display: block !important;
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.read .articles-read .read-main-content .container .read-flex .sidebar-advert-tr .sidebar-ad-tr img {
+  width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=read.css.map */

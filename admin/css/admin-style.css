@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  border-style: border-box;
+}
+
+li {
+  list-style: none !important;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  background-color: #dedede !important;
+}
+
+table, tr, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+.header {
+  width: 100%;
+  height: 54px;
+  padding: 10px;
+  -webkit-box-shadow: 0px 2px 15px;
+          box-shadow: 0px 2px 15px;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .container .logo {
+  display: inline-block;
+}
+
+.header .container .logo h1 {
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  vertical-align: middle;
+}
+
+.header .container .navigation .nav .unordered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .container .navigation .nav .unordered li a {
+  padding: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  color: inherit;
+}
+
+.header .container .navigation .nav .unordered li a:hover {
+  color: #02ffb3 !important;
+}
+
+.admin-content {
+  margin-top: 0px !important;
+}
+
+.admin-content .admin-flex-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.admin-content .admin-flex-one .admin-links {
+  width: 20%;
+  height: 100vh;
+  background-color: #2f165e;
+  margin-top: 20px;
+}
+
+.admin-content .admin-flex-one .admin-links .bb h1 {
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  vertical-align: middle;
+  color: #fff;
+  text-align: center;
+  margin: 10px;
+}
+
+.admin-content .admin-flex-one .admin-links .links {
+  padding-top: 30px;
+}
+
+.admin-content .admin-flex-one .admin-links .links a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.admin-content .admin-flex-one .admin-links .links a .ilink {
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  padding-left: 40px;
+  border-bottom: 1px solid #dedede;
+}
+
+.admin-content .admin-flex-one .admin-links .links a .ilink:nth-child(1) {
+  border-top: 1px solid #dedede;
+}
+
+.admin-content .admin-flex-one .admin-links .links a .ilink:hover {
+  background-color: #774dbb;
+}
+
+.admin-content .admin-flex-one .admin-links .cc {
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.admin-content .admin-flex-one .admin-main-area {
+  width: 80%;
+}
+
+.admin-content .admin-flex-one .admin-main-area .main-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.admin-content .admin-flex-one .admin-main-area .main-top .users, .admin-content .admin-flex-one .admin-main-area .main-top .articles {
+  width: 45%;
+  height: 300px;
+  background-color: #8348b9;
+  margin: 20px;
+  overflow-y: scroll;
+}
+
+.admin-content .admin-flex-one .admin-main-area .main-top .users h2, .admin-content .admin-flex-one .admin-main-area .main-top .articles h2 {
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  vertical-align: middle;
+  color: #fff;
+  text-align: center;
+  margin: 10px;
+  margin-bottom: -10px;
+}
+
+.admin-content .admin-flex-one .admin-main-area .main-top .users .users-table, .admin-content .admin-flex-one .admin-main-area .main-top .articles .users-table {
+  padding: 20px;
+}
+
+.admin-content .admin-flex-one .admin-main-area .main-top .users .users-table .table, .admin-content .admin-flex-one .admin-main-area .main-top .users .users-table tr, .admin-content .admin-flex-one .admin-main-area .main-top .users .users-table td, .admin-content .admin-flex-one .admin-main-area .main-top .articles .users-table .table, .admin-content .admin-flex-one .admin-main-area .main-top .articles .users-table tr, .admin-content .admin-flex-one .admin-main-area .main-top .articles .users-table td {
+  border-collapse: collapse;
+  border: 1px solid white;
+  color: #fff;
+}
+
+.admin-content .admin-flex-one .admin-main-area .main-top .users .users-table .table thead, .admin-content .admin-flex-one .admin-main-area .main-top .articles .users-table .table thead {
+  font-weight: 600;
+  background-color: #2700b3;
+}
+
+.admin-content .admin-flex-one .admin-main-area .main-top .articles {
+  width: 45%;
+  background-color: #8348b9;
+  height: 300px;
+  margin: 20px;
+}
+
+.admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread {
+  padding-top: 10px;
+  height: auto;
+  width: calc(100%-40px);
+  margin: 20px;
+  padding-bottom: 20px;
+  background-color: #332153;
+}
+
+.admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .investments, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .refferals, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .approvals, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .stats, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .write {
+  margin: 20px;
+  background-color: #9a66fa;
+  height: auto;
+  padding: 10px;
+}
+
+.admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .investments h2, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .refferals h2, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .approvals h2, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .stats h2, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .write h2 {
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  vertical-align: middle;
+  color: #fff;
+  text-align: center;
+  margin: 10px;
+}
+
+.admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .investments table, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .investments tr, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .investments td, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .refferals table, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .refferals tr, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .refferals td, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .approvals table, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .approvals tr, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .approvals td, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .stats table, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .stats tr, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .stats td, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .write table, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .write tr, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .write td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  color: #fff;
+}
+
+.admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .investments thead, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .refferals thead, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .approvals thead, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .stats thead, .admin-content .admin-flex-one .admin-main-area .main-bottom .data-spread .write thead {
+  background-color: #8832b9;
+}
+/*# sourceMappingURL=admin-style.css.map */
